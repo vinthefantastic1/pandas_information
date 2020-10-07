@@ -7,6 +7,9 @@
 
 `df=pd.read_excel(fn)'`
 
+#### read tab-delimited file
+`pandas.read_csv(fn, sep='\t', lineterminator='\r')`
+
 #### various ways to import data
 `df = pd.read_csv(fn)`
 
