@@ -7,6 +7,13 @@
 
 `df=pd.read_excel(fn)'`
 
+#### various ways to import data
+`df = pd.read_csv(fn)`
+
+`df = pd.read_json(fn)`
+
+`df = pd.read_sql('select * from mytable', mycn)`
+
 #### if a column is giving problems....
 `df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
 
