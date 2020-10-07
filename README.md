@@ -104,6 +104,9 @@ df = df["Departments"].unique()
 
 `df.pivot(index='processDate',columns='brand',values='cost')`
 
+#### describe function - get some quick stats
+df.describe()
+
 
 
 
