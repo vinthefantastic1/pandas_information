@@ -83,6 +83,9 @@
 `df['Country'].value_counts()`
 
 #### sum, unique, nunique
+#### unique values
+df = df["Departments"].unique()
+
 
 #### sort values
 `df.sort_values(['Date'])`
