@@ -2,7 +2,9 @@
 
 #### startup
 `import pandas as pd`
+
 `fn = 'mydata.xlsx'`
+
 `df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
 
 #### if a column is giving problems....
