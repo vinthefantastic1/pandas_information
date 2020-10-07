@@ -71,6 +71,10 @@
 #### not operator is tilde `~`
 `df[ ~(df["Country"]=="USA" ) ]`
 
+#### value counts
+`df['Country'].value_counts()`
+
+#### sum, unique, nunique
 
 
 
