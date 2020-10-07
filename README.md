@@ -5,10 +5,14 @@
 
 `fn = 'mydata.xlsx'`
 
-`df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
+`df=pd.read_excel(fn, dtype={'job ticket':object})'`
 
 #### if a column is giving problems....
 `df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
+
+#### read csv with index
+`df=pd.read_csv(fn, index_col=['region','job ticket'])`
+`df=df.sort_index()`
 
 #### add new Row
 
@@ -75,6 +79,15 @@
 `df['Country'].value_counts()`
 
 #### sum, unique, nunique
+
+#### sort values
+`df.sort_values(['Date'])`
+
+#### pivot tables
+
+`df.pivot(index='processDate',columns='brand',values='cost')`
+
+
 
 
 
