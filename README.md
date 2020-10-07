@@ -8,7 +8,7 @@
 `df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
 
 #### if a column is giving problems....
-`df=pd.read_excel(fn, dtype={'Job Ticket':object})'
+`df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
 
 #### add new Row
 
