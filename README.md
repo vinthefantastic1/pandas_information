@@ -5,7 +5,7 @@
 
 `fn = 'mydata.xlsx'`
 
-`df=pd.read_excel(fn, dtype={'job ticket':object})'`
+`df=pd.read_excel(fn)'`
 
 #### if a column is giving problems....
 `df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
@@ -13,6 +13,10 @@
 #### read csv with index
 `df=pd.read_csv(fn, index_col=['region','job ticket'])`
 `df=df.sort_index()`
+
+#### see a few records from the top and bottom
+`df.head(5)`
+`df.tail(4)`
 
 #### add new Row
 
