@@ -1,5 +1,13 @@
 # Pandas Cheat Sheet
 
+#### startup
+`import pandas as pd`
+`fn = 'mydata.xlsx'`
+`df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
+
+#### if a column is giving problems....
+`df=pd.read_excel(fn, dtype={'Job Ticket':object})'
+
 #### add new Row
 
 `df.loc[-1] = ["This is a new row","2nd column of new row"]`
