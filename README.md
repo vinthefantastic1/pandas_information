@@ -118,8 +118,11 @@ df.describe()
 
 #### load a series to a dataframe
 `data=df.groupby(["staff first name", "staff last name"]).size()`
+
 `new_df=pd.DataFrame(data=data)`
+
 `new_df=new_df.reset_index()`
+
 `# then change the column names of any column as seen above`
 
 
