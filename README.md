@@ -92,6 +92,12 @@
 #### value counts
 `df['Country'].value_counts()`
 
+#### groupby - this will return a numpy array
+`df.groupby(["staff first name", "staff last name"]).size() `
+
+#### groupby this will return a dataframe
+`df2=df.groupby(["staff first name", "staff last name"]).size().reset_index(name="Count")`
+
 #### sum, unique, nunique
 #### unique values
 df = df["Departments"].unique()
