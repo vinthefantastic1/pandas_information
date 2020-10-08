@@ -113,6 +113,15 @@ df = df["Departments"].unique()
 #### describe function - get some quick stats
 df.describe()
 
+#### rename a dataframe column
+` df=df.rename(columns = {'col old name':'col new name'})`
+
+#### load a series to a dataframe
+`data=df.groupby(["staff first name", "staff last name"]).size()`
+`new_df=pd.DataFrame(data=data)`
+`new_df=new_df.reset_index()`
+`# then change the column names of any column as seen above`
+
 
 
 
