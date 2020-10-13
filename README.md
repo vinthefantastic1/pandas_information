@@ -31,6 +31,8 @@
 #### add new Row
 
 `df.loc[-1] = ["This is a new row","2nd column of new row"]`
+#### add a new Column
+`df['Address'] = address `
 
 #### add new index
 `df.index = df.index + 1`
