@@ -100,6 +100,15 @@
 #### groupby - this will return a dataframe
 `df2=df.groupby(["staff first name", "staff last name"]).size().reset_index(name="Count")`
 
+#### grouby - with sums and counts
+`df.groupby(
+     ['Type','Status']
+ ).agg(
+     Total_Charges = ('Total Charges','sum'),
+     Job_Count     = ('Status','count'),
+ ).reset_index()
+ `
+ 
 #### sum, unique, nunique
 #### unique values
 df = df["Departments"].unique()
