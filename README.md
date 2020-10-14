@@ -13,6 +13,9 @@
 #### read tab-delimited file
 `pandas.read_csv(fn, sep='\t', lineterminator='\r')`
 
+#### read tab-delimited file with specified columns without headers
+`df=pd.read_csv(fn, sep='\t', lineterminator='\r',usecols=[2,3,7],names=['Description','ID','Group'])`
+
 #### various ways to import data
 `df = pd.read_csv(fn)`
 
