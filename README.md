@@ -14,7 +14,7 @@
 `pandas.read_csv(fn, sep='\t', lineterminator='\r')`
 
 #### show all rows
-`pandas.set_option('display.max_rows', 10)`
+`pandas.set_option('display.max_rows', None) #change None to a number to specify` 
 
 #### read tab-delimited file with specified columns without headers
 `df=pd.read_csv(fn, sep='\t', lineterminator='\r',usecols=[2,3,7],names=['Description','ID','Group'])`
