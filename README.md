@@ -3,6 +3,9 @@
 #### startup
 `import pandas as pd`
 
+#### pandas version
+`pd.__version__`
+
 `fn = 'mydata.xlsx'`
 
 `df=pd.read_excel(fn)'`
