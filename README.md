@@ -100,7 +100,7 @@
 #### groupby - this will return a dataframe
 `df2=df.groupby(["staff first name", "staff last name"]).size().reset_index(name="Count")`
 
-#### grouby - with sums and counts
+#### groupby - using *agg* with sums and counts
 `df.groupby(
      ['Type','Status']
  ).agg(
