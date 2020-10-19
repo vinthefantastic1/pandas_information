@@ -74,6 +74,9 @@
 #### get all rows from index 1 to 4
 `df.loc[1:4]`
 
+#### use multiple columns from datataframe with filter
+`df3 = df_HBCU.loc[df_HBCU["State/Territory"] == "Alabama", ["School","City"]]`
+
 #### or use names of columns to get all rows starting at index 9
 #slice using labels
 `df.loc[9:,"Name":"Address"]`
