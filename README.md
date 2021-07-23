@@ -26,6 +26,10 @@
 
 `df = pd.read_sql('select * from mytable', mycn)`
 
+`df=pd.read_html("https://docs.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-intel-processors")`
+
+     `df_cpu = df[0]`
+
 #### if a column is giving problems....
 `df=pd.read_excel(fn, dtype={'Job Ticket':object})'`
 
